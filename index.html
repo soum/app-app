@@ -14,8 +14,12 @@
     .blue-btn{background: #9999ff}
     .mint-btn{background: #99ff99}
     .full-width-call-out{min-height: 50px;width: 90%}
-    ul{list-style: none;}
-    footer{background: #cccccc;padding: 10% 0 10% 0}
+    footer{
+      background: #cccccc;
+      padding: 10% 0 10% 0;
+      margin-top: 40px;
+      border-top: 1px solid gray;
+    }
     .cell{min-height: 40px;}
     .square{border-radius: 0}
     .btn{
@@ -30,9 +34,6 @@
       right: 0;
       top: 30px;
       width:150px;
-    }
-    .circle-picture-frame img {
-      border-radius: 50%;
     }
     .shadow{
       -webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
@@ -64,7 +65,7 @@
      <img src="https://placehold.it/300x300?text=default mobile first" >
     </picture>
    <div class="circle-picture-frame hidden-lg hidden-md hidden-sm">
-    <img src="images/face.png"/>
+    <img class="img-circle" src="images/face.png"/>
    </div>
    <div class="personal-info hidden-lg hidden-md hidden-sm">
     <span class="lead">San Francisco, CA</span>
@@ -85,21 +86,21 @@
     <div class="row">
       <h2>Blabidi bla bla bla Blabidi bla bla bla</h2>
       <div class="col-lg-12">
-        <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
       </div>
     </div>
   </div>
 
   <footer class="container-fluid">
     <div class="col-xs-12 col-sm-9">
-      <ul>
+      <ul class="list-unstyled">
         <li class="lead">footer link 1</li>
         <li>Link to fun land</li>
         <li>Link to no so fun land</li>
       </ul>
     </div>
     <div class="col-xs-12 col-sm-3 hidden-xs">
-      <ul>
+      <ul class="list-unstyled">
         <li class="lead">footer link 2</li>
         <li>Link to fun land</li>
         <li>Link to no so fun land</li>

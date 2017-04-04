@@ -1,0 +1,14 @@
+{
+  "name": "aap-app",
+  "engine": "node 5.5.0",
+  "engineStrict": true,
+  "version": "1.0.0",
+  "description": "test app for aap",
+  "scripts": {},
+  "author": "soum",
+  "license": "BSD-2-Clause",
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  }
+}
